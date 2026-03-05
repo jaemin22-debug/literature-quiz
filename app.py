@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # 1. API 설정
-API_KEY = "AIzaSyDdBePmdkBA5TMMWO1rDG3sXgev_6-QEju"
+API_KEY = "AIzaSyAsahOu0AatP8A_zAvU4H6jCJS0_9Npe_c"
 genai.configure(api_key=API_KEY)
 
 # 최신 모델 설정
