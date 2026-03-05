@@ -7,7 +7,7 @@ API_KEY = "AIzaSyAsahOu0AatP8A_zAvU4H6jCJS0_9Npe_c"
 genai.configure(api_key=API_KEY)
 
 # 최신 모델 설정
-model = genai.GenerativeModel('models/gemini-1.5-flash')
+model = 'gemini-pro'
 
 st.set_page_config(page_title="영문학 거장 스무고개", page_icon="📚")
 st.title("📚 AI 자유 질문 스무고개")
